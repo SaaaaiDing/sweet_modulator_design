@@ -1,0 +1,5 @@
+system,n_results,mean_kcal_mol,sample_sd_kcal_mol,median_kcal_mol,intended_window_ns,note
+binder1,90,-107.21314196903836,16.355781919716144,-107.8935471060785,20–200,Snapshot timestamps not present in the result CSV
+binder2,90,-62.354924235115746,16.275413990022567,-60.0594751490826,20–200,Snapshot timestamps not present in the result CSV
+binder3,90,-24.939452329003704,8.773361926590956,-23.94956179321525,20–200,Snapshot timestamps not present in the result CSV
+advantame,90,-58.52846596310689,8.377985594682293,-57.9508692939071,20–200,Snapshot timestamps not present in the result CSV

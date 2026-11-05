@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "Please cite the associated article when using this research companion."
+type: dataset
+title: "Sweet modulator design: curated computational research companion"
+authors:
+  - family-names: Ding
+    given-names: Saisai
+  - family-names: Zhang
+    given-names: Yi
+repository-code: "https://github.com/SaaaaiDing/sweet_modulator_design"
+preferred-citation:
+  type: article
+  title: "De novo design of protein binders targeting the human sweet taste receptor as potential sweet proteins"
+  authors:
+    - family-names: Ding
+      given-names: Saisai
+    - family-names: Zhang
+      given-names: Yi
+  year: 2026
+  doi: 10.1038/s41538-026-01202-x
+  journal: npj Science of Food

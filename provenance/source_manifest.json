@@ -1,0 +1,447 @@
+{
+  "source_collection": "Sweet_protein_paper_writing",
+  "article": "10.1038/s41538-026-01202-x",
+  "files": [
+    {
+      "source": "bolt/brazzein_aggregated_metrics.csv",
+      "published": "data/boltz/metrics.csv",
+      "source_sha256": "619456079c51d39701c3f50e4b4869f45776246da2a2d7336060372da28dc9bb",
+      "published_sha256": "6a50a2bba13424a616e04579b75a747564283a10d19fe36c12e22dca032e271a",
+      "treatment": "Added article labels; removed workstation json_path column; retained all 30 model records and numeric metrics"
+    },
+    {
+      "source": "fig3/sse_mdtraj/_ALL_binder_counts.csv",
+      "published": "data/secondary_structure/counts.csv",
+      "source_sha256": "e98b37abc420a5a44d6b1f017a0068278b30c18e1d9c68e689943eae06686a2d",
+      "published_sha256": "e98b37abc420a5a44d6b1f017a0068278b30c18e1d9c68e689943eae06686a2d",
+      "treatment": "Unmodified source file"
+    },
+    {
+      "source": "fig3/sse_mdtraj/_ALL_binder_fractions.csv",
+      "published": "data/secondary_structure/fractions.csv",
+      "source_sha256": "ad8ae14cbea33fd14a98503f707bddedac2d4b4766be0e04a756055e04e40414",
+      "published_sha256": "ad8ae14cbea33fd14a98503f707bddedac2d4b4766be0e04a756055e04e40414",
+      "treatment": "Unmodified source file"
+    },
+    {
+      "source": "fig3/sse_mdtraj/Figure_SSE_fractions.svg",
+      "published": "figures/secondary_structure.svg",
+      "source_sha256": "1660c950975c263a3012783dea8448fc795a42c3aafadef330d8643dd61f6237",
+      "published_sha256": "1660c950975c263a3012783dea8448fc795a42c3aafadef330d8643dd61f6237",
+      "treatment": "Unmodified source file"
+    },
+    {
+      "source": "fig3/binder1.pdb",
+      "published": "structures/binder1_complex.pdb",
+      "source_sha256": "ce192a66cc661616a101dd197599da9d15ae56a612aa2f3a4fb610aab6aabeed",
+      "published_sha256": "ce192a66cc661616a101dd197599da9d15ae56a612aa2f3a4fb610aab6aabeed",
+      "treatment": "Unmodified source file"
+    },
+    {
+      "source": "fig3/binder2.pdb",
+      "published": "structures/binder2_complex.pdb",
+      "source_sha256": "d1faa52f247ab8d817831742d79c23341b10c9e2868dbcc7220a7420c56493ae",
+      "published_sha256": "d1faa52f247ab8d817831742d79c23341b10c9e2868dbcc7220a7420c56493ae",
+      "treatment": "Unmodified source file"
+    },
+    {
+      "source": "fig3/binder3.pdb",
+      "published": "structures/binder3_complex.pdb",
+      "source_sha256": "5b9007f21db6ea51184fa49a83a2f1892681502a42b36b058f255a451b2850f2",
+      "published_sha256": "5b9007f21db6ea51184fa49a83a2f1892681502a42b36b058f255a451b2850f2",
+      "treatment": "Unmodified source file"
+    },
+    {
+      "source": "fig3/binder4.pdb",
+      "published": "structures/binder4_complex.pdb",
+      "source_sha256": "7fe2e348a4fcac27387253806e37f716af8290793d6d0a35976a4407b50afbda",
+      "published_sha256": "7fe2e348a4fcac27387253806e37f716af8290793d6d0a35976a4407b50afbda",
+      "treatment": "Unmodified source file"
+    },
+    {
+      "source": "fig3/binder5.pdb",
+      "published": "structures/binder5_complex.pdb",
+      "source_sha256": "078e2de348fcc5142ed085ef9e8baa114d27d85f6c038d4c3c4a27cf928b91f0",
+      "published_sha256": "078e2de348fcc5142ed085ef9e8baa114d27d85f6c038d4c3c4a27cf928b91f0",
+      "treatment": "Unmodified source file"
+    },
+    {
+      "source": "revision_md/binder_md_figures/binder1_rg.csv",
+      "published": "data/md/binder1/rg.csv",
+      "source_sha256": "44a00d3a495f147050d143408b50da65ed83703f9af2926893b9f1c913f7dc82",
+      "published_sha256": "44a00d3a495f147050d143408b50da65ed83703f9af2926893b9f1c913f7dc82",
+      "treatment": "Unmodified source file"
+    },
+    {
+      "source": "revision_md/binder_md_figures/binder1_rmsd.csv",
+      "published": "data/md/binder1/rmsd.csv",
+      "source_sha256": "c2dad37ddfec7490ee91b7fb457caef150ecc4bf1b7b69f150215245d77314ef",
+      "published_sha256": "c2dad37ddfec7490ee91b7fb457caef150ecc4bf1b7b69f150215245d77314ef",
+      "treatment": "Unmodified source file"
+    },
+    {
+      "source": "revision_md/binder_md_figures/binder1_rmsf.csv",
+      "published": "data/md/binder1/rmsf.csv",
+      "source_sha256": "634c3975e0b9762e1386314e7e622509f57b3efded5dbc1ad8a073b7646d49d6",
+      "published_sha256": "634c3975e0b9762e1386314e7e622509f57b3efded5dbc1ad8a073b7646d49d6",
+      "treatment": "Unmodified source file"
+    },
+    {
+      "source": "revision_md/binder1/binder1_md_200ns/binder1_interface_BSA_vs_time.csv",
+      "published": "data/md/binder1/interface_BSA_vs_time.csv",
+      "source_sha256": "13db0377b0f09ea54d09679b9ca9efd71f5c7216357f1f4958d9ea23148b7e53",
+      "published_sha256": "13db0377b0f09ea54d09679b9ca9efd71f5c7216357f1f4958d9ea23148b7e53",
+      "treatment": "Unmodified source file"
+    },
+    {
+      "source": "revision_md/binder1/binder1_md_200ns/binder1_hbond_count_vs_time.csv",
+      "published": "data/md/binder1/hbond_count_vs_time.csv",
+      "source_sha256": "09c1d96e024b86e20ef56eacb48e3e098a75490388e15c0e60d0ae40b3fffc58",
+      "published_sha256": "09c1d96e024b86e20ef56eacb48e3e098a75490388e15c0e60d0ae40b3fffc58",
+      "treatment": "Unmodified source file"
+    },
+    {
+      "source": "revision_md/binder1/binder1_md_200ns/binder1_saltbridge_count_vs_time.csv",
+      "published": "data/md/binder1/saltbridge_count_vs_time.csv",
+      "source_sha256": "658d1706e0083b181cc684100e8f4b39de2e05e473cdf76aa8c63a67168ab93a",
+      "published_sha256": "658d1706e0083b181cc684100e8f4b39de2e05e473cdf76aa8c63a67168ab93a",
+      "treatment": "Unmodified source file"
+    },
+    {
+      "source": "revision_md/binder1/binder1_md_200ns/binder1_hydrophobic_count_vs_time.csv",
+      "published": "data/md/binder1/hydrophobic_count_vs_time.csv",
+      "source_sha256": "65d52c016d113b3c15eb70547519b8c93797a44d832340db0551cdb3850a0542",
+      "published_sha256": "65d52c016d113b3c15eb70547519b8c93797a44d832340db0551cdb3850a0542",
+      "treatment": "Unmodified source file"
+    },
+    {
+      "source": "revision_md/binder1/binder1_md_200ns/binder1_hbond_residue_pair_occupancy.csv",
+      "published": "data/md/binder1/hbond_residue_pair_occupancy.csv",
+      "source_sha256": "a6738aef2c9103f109054dcd0eb7b27576830a48c8abaf160459316413a927eb",
+      "published_sha256": "a6738aef2c9103f109054dcd0eb7b27576830a48c8abaf160459316413a927eb",
+      "treatment": "Unmodified source file"
+    },
+    {
+      "source": "revision_md/binder1/binder1_md_200ns/binder1_saltbridge_residue_pair_occupancy.csv",
+      "published": "data/md/binder1/saltbridge_residue_pair_occupancy.csv",
+      "source_sha256": "17444604375d372f0fded9984dc18c5258b24c73c01b42f2d9d1d94143ae0913",
+      "published_sha256": "17444604375d372f0fded9984dc18c5258b24c73c01b42f2d9d1d94143ae0913",
+      "treatment": "Unmodified source file"
+    },
+    {
+      "source": "revision_md/binder1/binder1_md_200ns/binder1_hydrophobic_residue_pair_occupancy.csv",
+      "published": "data/md/binder1/hydrophobic_residue_pair_occupancy.csv",
+      "source_sha256": "7133289fa3708027e2125bac2b31dd85020e2c43f48f72ff5619ad4f62232d10",
+      "published_sha256": "7133289fa3708027e2125bac2b31dd85020e2c43f48f72ff5619ad4f62232d10",
+      "treatment": "Unmodified source file"
+    },
+    {
+      "source": "revision_md/binder1/binder1_md_200ns/binder1_combined_interface_occupancy.csv",
+      "published": "data/md/binder1/combined_interface_occupancy.csv",
+      "source_sha256": "d1c825aaa60033d429338293fa171001597ef48dc063172b13b318760a500007",
+      "published_sha256": "d1c825aaa60033d429338293fa171001597ef48dc063172b13b318760a500007",
+      "treatment": "Unmodified source file"
+    },
+    {
+      "source": "revision_md/binder1/binder1_md_200ns/binder1_mmgbsa_20_200ns-prime-out.csv",
+      "published": "data/energies/binder1_mmgbsa.csv",
+      "source_sha256": "27bd71aa7bd112c802ef99309f654832b2dd47821f9f63ef166820f53caef943",
+      "published_sha256": "27bd71aa7bd112c802ef99309f654832b2dd47821f9f63ef166820f53caef943",
+      "treatment": "Unmodified source file"
+    },
+    {
+      "source": "revision_md/binder_md_figures/binder2_rg.csv",
+      "published": "data/md/binder2/rg.csv",
+      "source_sha256": "6e2e6bf4c0cdbd106f35257b121cffa15ba820257fa3299266275b811e910f91",
+      "published_sha256": "6e2e6bf4c0cdbd106f35257b121cffa15ba820257fa3299266275b811e910f91",
+      "treatment": "Unmodified source file"
+    },
+    {
+      "source": "revision_md/binder_md_figures/binder2_rmsd.csv",
+      "published": "data/md/binder2/rmsd.csv",
+      "source_sha256": "714da8e099c12c7de107b9a13af2bd6b0c34fd9b010521a3c928df5c4a8080bf",
+      "published_sha256": "714da8e099c12c7de107b9a13af2bd6b0c34fd9b010521a3c928df5c4a8080bf",
+      "treatment": "Unmodified source file"
+    },
+    {
+      "source": "revision_md/binder_md_figures/binder2_rmsf.csv",
+      "published": "data/md/binder2/rmsf.csv",
+      "source_sha256": "36ccc7f3db7b081ebfa64165b0c954e67af47280982aa61c15f80ecb4acec5e8",
+      "published_sha256": "36ccc7f3db7b081ebfa64165b0c954e67af47280982aa61c15f80ecb4acec5e8",
+      "treatment": "Unmodified source file"
+    },
+    {
+      "source": "revision_md/binder2/binder2_md_200ns/binder2_interface_BSA_vs_time.csv",
+      "published": "data/md/binder2/interface_BSA_vs_time.csv",
+      "source_sha256": "378fbb96910ae8a6954aae2bacb12bf5212a0db5d2d1df4432eeb59ba483a82e",
+      "published_sha256": "378fbb96910ae8a6954aae2bacb12bf5212a0db5d2d1df4432eeb59ba483a82e",
+      "treatment": "Unmodified source file"
+    },
+    {
+      "source": "revision_md/binder2/binder2_md_200ns/binder2_hbond_count_vs_time.csv",
+      "published": "data/md/binder2/hbond_count_vs_time.csv",
+      "source_sha256": "276aea0a1f51d97f89579e7bde89e18940bd0f11228db009034b5148eecac28d",
+      "published_sha256": "276aea0a1f51d97f89579e7bde89e18940bd0f11228db009034b5148eecac28d",
+      "treatment": "Unmodified source file"
+    },
+    {
+      "source": "revision_md/binder2/binder2_md_200ns/binder2_saltbridge_count_vs_time.csv",
+      "published": "data/md/binder2/saltbridge_count_vs_time.csv",
+      "source_sha256": "603d8a792bb506cda083511d483dc5b5597d625cce10db921bbf143c15678d87",
+      "published_sha256": "603d8a792bb506cda083511d483dc5b5597d625cce10db921bbf143c15678d87",
+      "treatment": "Unmodified source file"
+    },
+    {
+      "source": "revision_md/binder2/binder2_md_200ns/binder2_hydrophobic_count_vs_time.csv",
+      "published": "data/md/binder2/hydrophobic_count_vs_time.csv",
+      "source_sha256": "c5b36426788709821821f5b72880d8a6b767b77e5aba5a205a6939c03f61c775",
+      "published_sha256": "c5b36426788709821821f5b72880d8a6b767b77e5aba5a205a6939c03f61c775",
+      "treatment": "Unmodified source file"
+    },
+    {
+      "source": "revision_md/binder2/binder2_md_200ns/binder2_hbond_residue_pair_occupancy.csv",
+      "published": "data/md/binder2/hbond_residue_pair_occupancy.csv",
+      "source_sha256": "9a179370da54cdae622fce210d60407378f805b9bb3e31837a85d2a5a74b9455",
+      "published_sha256": "9a179370da54cdae622fce210d60407378f805b9bb3e31837a85d2a5a74b9455",
+      "treatment": "Unmodified source file"
+    },
+    {
+      "source": "revision_md/binder2/binder2_md_200ns/binder2_saltbridge_residue_pair_occupancy.csv",
+      "published": "data/md/binder2/saltbridge_residue_pair_occupancy.csv",
+      "source_sha256": "b54f61d2bd56800c85af2fd1f6202e3cedefbf3603df34ebd8b18175647f6a76",
+      "published_sha256": "b54f61d2bd56800c85af2fd1f6202e3cedefbf3603df34ebd8b18175647f6a76",
+      "treatment": "Unmodified source file"
+    },
+    {
+      "source": "revision_md/binder2/binder2_md_200ns/binder2_hydrophobic_residue_pair_occupancy.csv",
+      "published": "data/md/binder2/hydrophobic_residue_pair_occupancy.csv",
+      "source_sha256": "33a9ff841ba2bb818477f856fd2d0979d90b0960ca573c3d6c52914a8f854783",
+      "published_sha256": "33a9ff841ba2bb818477f856fd2d0979d90b0960ca573c3d6c52914a8f854783",
+      "treatment": "Unmodified source file"
+    },
+    {
+      "source": "revision_md/binder2/binder2_md_200ns/binder2_combined_interface_occupancy.csv",
+      "published": "data/md/binder2/combined_interface_occupancy.csv",
+      "source_sha256": "1290c5cc4f73af464976366bd2dbdebda2ce22d01bcfc42caefe82df705e250e",
+      "published_sha256": "1290c5cc4f73af464976366bd2dbdebda2ce22d01bcfc42caefe82df705e250e",
+      "treatment": "Unmodified source file"
+    },
+    {
+      "source": "revision_md/binder2/binder2_md_200ns/binder2_mmgbsa_20_200ns-prime-out.csv",
+      "published": "data/energies/binder2_mmgbsa.csv",
+      "source_sha256": "a33be240ddc4d08fa17185e8c217f616e4616baf3e9245013baeb2482f9cc983",
+      "published_sha256": "a33be240ddc4d08fa17185e8c217f616e4616baf3e9245013baeb2482f9cc983",
+      "treatment": "Unmodified source file"
+    },
+    {
+      "source": "revision_md/binder_md_figures/binder3_rg.csv",
+      "published": "data/md/binder3/rg.csv",
+      "source_sha256": "56f205a7c55963c99a5eb035ed0b44670b439f384b7defc42dc3b77ab0d864b4",
+      "published_sha256": "56f205a7c55963c99a5eb035ed0b44670b439f384b7defc42dc3b77ab0d864b4",
+      "treatment": "Unmodified source file"
+    },
+    {
+      "source": "revision_md/binder_md_figures/binder3_rmsd.csv",
+      "published": "data/md/binder3/rmsd.csv",
+      "source_sha256": "fcd5785d6011b4c616a90b19365cd7cb7c3c1fb7ab9a8c314ec37567c9ac56b3",
+      "published_sha256": "fcd5785d6011b4c616a90b19365cd7cb7c3c1fb7ab9a8c314ec37567c9ac56b3",
+      "treatment": "Unmodified source file"
+    },
+    {
+      "source": "revision_md/binder_md_figures/binder3_rmsf.csv",
+      "published": "data/md/binder3/rmsf.csv",
+      "source_sha256": "4a67d683ad65af4f9a86e2dc2153396d81f772b555bbe98592ea3883ddb77ba9",
+      "published_sha256": "4a67d683ad65af4f9a86e2dc2153396d81f772b555bbe98592ea3883ddb77ba9",
+      "treatment": "Unmodified source file"
+    },
+    {
+      "source": "revision_md/binder3/binder3_md_200ns/binder3_interface_BSA_vs_time.csv",
+      "published": "data/md/binder3/interface_BSA_vs_time.csv",
+      "source_sha256": "3ca18e3a90dd3f4e5521a2a8b96519de7d537ce43e2d3d010eb3f9f23e5864f2",
+      "published_sha256": "3ca18e3a90dd3f4e5521a2a8b96519de7d537ce43e2d3d010eb3f9f23e5864f2",
+      "treatment": "Unmodified source file"
+    },
+    {
+      "source": "revision_md/binder3/binder3_md_200ns/binder3_hbond_count_vs_time.csv",
+      "published": "data/md/binder3/hbond_count_vs_time.csv",
+      "source_sha256": "e141cf71d4f8cfce67755bab097929258adbf71b6642ee95adc2541457eb9db9",
+      "published_sha256": "e141cf71d4f8cfce67755bab097929258adbf71b6642ee95adc2541457eb9db9",
+      "treatment": "Unmodified source file"
+    },
+    {
+      "source": "revision_md/binder3/binder3_md_200ns/binder3_saltbridge_count_vs_time.csv",
+      "published": "data/md/binder3/saltbridge_count_vs_time.csv",
+      "source_sha256": "bd33d99474272e25286189f606c569de97403117994985a0cba2cb1acf27f64f",
+      "published_sha256": "bd33d99474272e25286189f606c569de97403117994985a0cba2cb1acf27f64f",
+      "treatment": "Unmodified source file"
+    },
+    {
+      "source": "revision_md/binder3/binder3_md_200ns/binder3_hydrophobic_count_vs_time.csv",
+      "published": "data/md/binder3/hydrophobic_count_vs_time.csv",
+      "source_sha256": "f15a25dcc4aab9662d110fcb68298d0f5901e69143cc8cd23bfab8f4991abc83",
+      "published_sha256": "f15a25dcc4aab9662d110fcb68298d0f5901e69143cc8cd23bfab8f4991abc83",
+      "treatment": "Unmodified source file"
+    },
+    {
+      "source": "revision_md/binder3/binder3_md_200ns/binder3_hbond_residue_pair_occupancy.csv",
+      "published": "data/md/binder3/hbond_residue_pair_occupancy.csv",
+      "source_sha256": "864231ec2f748c2945094c548aefc347f3082cbfba29edb9abefa6076e276fb1",
+      "published_sha256": "864231ec2f748c2945094c548aefc347f3082cbfba29edb9abefa6076e276fb1",
+      "treatment": "Unmodified source file"
+    },
+    {
+      "source": "revision_md/binder3/binder3_md_200ns/binder3_saltbridge_residue_pair_occupancy.csv",
+      "published": "data/md/binder3/saltbridge_residue_pair_occupancy.csv",
+      "source_sha256": "b549776f69e43619260f1de2928bae079bdcf1fc8ae87f05cb677797e69d2447",
+      "published_sha256": "b549776f69e43619260f1de2928bae079bdcf1fc8ae87f05cb677797e69d2447",
+      "treatment": "Unmodified source file"
+    },
+    {
+      "source": "revision_md/binder3/binder3_md_200ns/binder3_hydrophobic_residue_pair_occupancy.csv",
+      "published": "data/md/binder3/hydrophobic_residue_pair_occupancy.csv",
+      "source_sha256": "ac194ced4a92d0bd0c242f992f4c61636e39745e417040da7d7f8f9f4e6c580d",
+      "published_sha256": "ac194ced4a92d0bd0c242f992f4c61636e39745e417040da7d7f8f9f4e6c580d",
+      "treatment": "Unmodified source file"
+    },
+    {
+      "source": "revision_md/binder3/binder3_md_200ns/binder3_combined_interface_occupancy.csv",
+      "published": "data/md/binder3/combined_interface_occupancy.csv",
+      "source_sha256": "6c60c7a7baa604be173fb07fa615ec36bc5a465afd6b67f23ad52776333d6180",
+      "published_sha256": "6c60c7a7baa604be173fb07fa615ec36bc5a465afd6b67f23ad52776333d6180",
+      "treatment": "Unmodified source file"
+    },
+    {
+      "source": "revision_md/binder3/binder3_md_200ns/binder3_mmgbsa_20_200ns-prime-out.csv",
+      "published": "data/energies/binder3_mmgbsa.csv",
+      "source_sha256": "c7f620c67713f6857b409be7b76cf383b765803587b44d9ea298b803c720724c",
+      "published_sha256": "c7f620c67713f6857b409be7b76cf383b765803587b44d9ea298b803c720724c",
+      "treatment": "Unmodified source file"
+    },
+    {
+      "source": "revision_md/9OQ4_advantame_500ns_v100/Fig5a_Rg.csv",
+      "published": "data/md/advantame/receptor_rg.csv",
+      "source_sha256": "49971fd0c3365a038345f36c9b90d194e9a01faac38f711fa055993863ea86f8",
+      "published_sha256": "49971fd0c3365a038345f36c9b90d194e9a01faac38f711fa055993863ea86f8",
+      "treatment": "Unmodified source file"
+    },
+    {
+      "source": "revision_md/9OQ4_advantame_500ns_v100/Fig5a_Rg.svg",
+      "published": "figures/advantame_receptor_rg.svg",
+      "source_sha256": "dcb2cb336e5f63212c771c14dac9c20b6816b9479862a3ec0826e8a527c1084d",
+      "published_sha256": "dcb2cb336e5f63212c771c14dac9c20b6816b9479862a3ec0826e8a527c1084d",
+      "treatment": "Unmodified source file"
+    },
+    {
+      "source": "revision_md/9OQ4_advantame_500ns_v100/Fig5b_RMSF.csv",
+      "published": "data/md/advantame/receptor_rmsf.csv",
+      "source_sha256": "c9fce1e2ce779f34edca5b9a3c9195f0a0224c0bcf02ef2456c618f6ab8eb8f3",
+      "published_sha256": "c9fce1e2ce779f34edca5b9a3c9195f0a0224c0bcf02ef2456c618f6ab8eb8f3",
+      "treatment": "Unmodified source file"
+    },
+    {
+      "source": "revision_md/9OQ4_advantame_500ns_v100/Fig5b_RMSF.svg",
+      "published": "figures/advantame_receptor_rmsf.svg",
+      "source_sha256": "808687af055f7c4558363696e2fb2b0099dbcd3a704d40cfe58492a2edd62a51",
+      "published_sha256": "808687af055f7c4558363696e2fb2b0099dbcd3a704d40cfe58492a2edd62a51",
+      "treatment": "Unmodified source file"
+    },
+    {
+      "source": "revision_md/9OQ4_advantame_500ns_v100/Fig5c_Protein_RMSD.csv",
+      "published": "data/md/advantame/receptor_rmsd.csv",
+      "source_sha256": "f877f9b80800e46db4e92997ae5396d4707d83305a45135bf7855f9ef7f4ee0b",
+      "published_sha256": "f877f9b80800e46db4e92997ae5396d4707d83305a45135bf7855f9ef7f4ee0b",
+      "treatment": "Unmodified source file"
+    },
+    {
+      "source": "revision_md/9OQ4_advantame_500ns_v100/Fig5c_Protein_RMSD.svg",
+      "published": "figures/advantame_receptor_rmsd.svg",
+      "source_sha256": "2f5a40fe68ebc84ab5d63a601ded562eb8c5124e21b42bc1988a22e481c1081c",
+      "published_sha256": "2f5a40fe68ebc84ab5d63a601ded562eb8c5124e21b42bc1988a22e481c1081c",
+      "treatment": "Unmodified source file"
+    },
+    {
+      "source": "revision_md/9OQ4_advantame_500ns_v100/Fig5e_Ligand_RMSD.csv",
+      "published": "data/md/advantame/ligand_rmsd.csv",
+      "source_sha256": "07c2d7442fe2990c92e41087195623d7ffe7b60ee0075436c0109eba71f9f466",
+      "published_sha256": "07c2d7442fe2990c92e41087195623d7ffe7b60ee0075436c0109eba71f9f466",
+      "treatment": "Unmodified source file"
+    },
+    {
+      "source": "revision_md/9OQ4_advantame_500ns_v100/Fig5e_Ligand_RMSD.svg",
+      "published": "figures/advantame_ligand_rmsd.svg",
+      "source_sha256": "6ff2adb0dbf4839ed60a4dccbce9c87e7bb15afead609e7518f658103c63e656",
+      "published_sha256": "6ff2adb0dbf4839ed60a4dccbce9c87e7bb15afead609e7518f658103c63e656",
+      "treatment": "Unmodified source file"
+    },
+    {
+      "source": "revision_md/9OQ4_advantame_500ns_v100/advantame_hbond_count_vs_time.csv",
+      "published": "data/md/advantame/hbond_count_vs_time.csv",
+      "source_sha256": "4f04c78d9221ffe4a050a9d26ca8544c0046f4554d1d525a8675e09f2f05abe6",
+      "published_sha256": "4f04c78d9221ffe4a050a9d26ca8544c0046f4554d1d525a8675e09f2f05abe6",
+      "treatment": "Unmodified source file"
+    },
+    {
+      "source": "revision_md/9OQ4_advantame_500ns_v100/advantame_hydrophobic_count_vs_time.csv",
+      "published": "data/md/advantame/hydrophobic_count_vs_time.csv",
+      "source_sha256": "5078d36fcec0b7a6b618da26060277e7a3c58aac89aa5855f0f3a6573e68f06c",
+      "published_sha256": "5078d36fcec0b7a6b618da26060277e7a3c58aac89aa5855f0f3a6573e68f06c",
+      "treatment": "Unmodified source file"
+    },
+    {
+      "source": "revision_md/9OQ4_advantame_500ns_v100/advantame_combined_interface_occupancy.csv",
+      "published": "data/md/advantame/combined_interface_occupancy.csv",
+      "source_sha256": "d0053258c8f93f1e909796d0eec6ddf0c7f787e2a65dde991a75a6b5722a046b",
+      "published_sha256": "d0053258c8f93f1e909796d0eec6ddf0c7f787e2a65dde991a75a6b5722a046b",
+      "treatment": "Unmodified source file"
+    },
+    {
+      "source": "revision_md/9OQ4_advantame_500ns_v100/advantame_mmgbsa_20_200ns-prime-out.csv",
+      "published": "data/energies/advantame_mmgbsa.csv",
+      "source_sha256": "6aedf23bd39336034160c28435b0de028b3d45e93f0c871182c6e5d380984ba5",
+      "published_sha256": "6aedf23bd39336034160c28435b0de028b3d45e93f0c871182c6e5d380984ba5",
+      "treatment": "Unmodified source file"
+    },
+    {
+      "source": "revision_md/binder1/binder1_md_200ns/analyze_hbonds.py",
+      "published": "analysis/reference_scripts/analyze_hbonds.py",
+      "source_sha256": "727fbf92b73a07923c4253f9fe4082e394c0895abd7cba252a72a3b33db36d90",
+      "published_sha256": "727fbf92b73a07923c4253f9fe4082e394c0895abd7cba252a72a3b33db36d90",
+      "treatment": "Unmodified source file"
+    },
+    {
+      "source": "revision_md/binder1/binder1_md_200ns/analyze_saltbridges.py",
+      "published": "analysis/reference_scripts/analyze_saltbridges.py",
+      "source_sha256": "f92a6b0bab4dc4cfa7bb8ed0c42fb4dbae1ef16d3fff71c5715beaa496e30254",
+      "published_sha256": "f92a6b0bab4dc4cfa7bb8ed0c42fb4dbae1ef16d3fff71c5715beaa496e30254",
+      "treatment": "Unmodified source file"
+    },
+    {
+      "source": "revision_md/binder1/binder1_md_200ns/analyze_hydrophobic.py",
+      "published": "analysis/reference_scripts/analyze_hydrophobic.py",
+      "source_sha256": "40aa2aff9eb3a1d8b764f42e5d2e0c1d3aaa79c04df399797aef7293a4642357",
+      "published_sha256": "40aa2aff9eb3a1d8b764f42e5d2e0c1d3aaa79c04df399797aef7293a4642357",
+      "treatment": "Unmodified source file"
+    },
+    {
+      "source": "revision_md/binder1/binder1_md_200ns/analyze_interface_bsa.py",
+      "published": "analysis/reference_scripts/analyze_interface_bsa.py",
+      "source_sha256": "f471febd1fc769c77026f23ff580457863f3903d295e80a395d10346765ca5b6",
+      "published_sha256": "f471febd1fc769c77026f23ff580457863f3903d295e80a395d10346765ca5b6",
+      "treatment": "Unmodified source file"
+    },
+    {
+      "source": "revision_md/binder1/binder1_md_200ns/combine_interface_contacts.py",
+      "published": "analysis/reference_scripts/combine_interface_contacts.py",
+      "source_sha256": "19f58d3bebd9080a00e9252a5f8e428a4ca4421fe852a8d1d331adb0fdc928b2",
+      "published_sha256": "19f58d3bebd9080a00e9252a5f8e428a4ca4421fe852a8d1d331adb0fdc928b2",
+      "treatment": "Unmodified source file"
+    },
+    {
+      "source": "bolt/sweet_protein_Bolt.ipynb",
+      "published": "data/energies/static_gbsa.csv",
+      "source_sha256": "f22c70e9f8276de9ceae84369ff6bf3e755fdd689e38d4bf3cdfc19dd5bfd2f8",
+      "published_sha256": "c4b671d4f0c0086b06a473fe84b0607b1e08ea86293b630d453f63d98e820b45",
+      "treatment": "Extracted the six GBSA plotting literals; notebook execution not required"
+    }
+  ]
+}

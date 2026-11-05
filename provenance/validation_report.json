@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "checks": [
+    "Verified source and published SHA-256 for 63 source mappings",
+    "All included Python scripts parse and contain no Chinese text",
+    "All relative Markdown links resolve",
+    "All CSVs parse and contain data",
+    "Six Boltz groups, five unique predictions each",
+    "Secondary structure fractions sum to one",
+    "Five 128-residue binder sequences extracted from the supplied PDBs",
+    "Four trajectory MM/GBSA tables, each with 90 finite binding scores",
+    "Advantame structural exports end at 303.652854 ns; distinguished from the nominal 300 ns in the article",
+    "Interface area equals half of total buried SASA in all three binder tables",
+    "Original MIT license retained; no trajectories, checkpoints or article PDF included"
+  ],
+  "pre_report_files": 83,
+  "pre_report_bytes": 5492929,
+  "scope": "Data integrity and lightweight summarization; not a reproduction of design or MD"
+}

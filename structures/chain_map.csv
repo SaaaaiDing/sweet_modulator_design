@@ -1,0 +1,11 @@
+complex,chain,ca_residues,role
+Binder1,A,128,binder
+Binder1,B,839,receptor
+Binder2,A,128,binder
+Binder2,B,839,receptor
+Binder3,A,128,binder
+Binder3,B,839,receptor
+Binder4,A,128,binder
+Binder4,B,839,receptor
+Binder5,A,128,binder
+Binder5,B,839,receptor
